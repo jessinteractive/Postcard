@@ -45,6 +45,12 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Eu1-Qp-yG1"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRe-WL-TwE">
+                                <rect key="frame" x="16" y="181" width="177" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -53,6 +59,7 @@
                         <outlet property="enterNameTextField" destination="LTm-72-QuP" id="gyO-98-eke"/>
                         <outlet property="mailButton" destination="JIz-ed-0p8" id="sAH-y5-L9v"/>
                         <outlet property="messageLabel" destination="VIk-sy-llC" id="8wj-Pn-F5g"/>
+                        <outlet property="nameLabel" destination="hRe-WL-TwE" id="VMs-rg-E4r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
